@@ -1,2 +1,2 @@
-FROM alpine
-RUN apk add --no-cache python3 && pip3 install pipenv
+FROM lukasgarcya/pipenv
+RUN apk add --no-cache chromium-chromedriver chromium
