@@ -1,2 +1,2 @@
-FROM lukasgarcya/pipenv
-RUN apk add --no-cache chromium-chromedriver chromium
+FROM lukasgarcya/chromium
+RUN apk add --no-cache postgresql-dev
