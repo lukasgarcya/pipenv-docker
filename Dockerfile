@@ -1,3 +1,3 @@
 FROM lukasgarcya/pipenv:chromium
 RUN apk add --no-cache postgresql-dev gcc \
-	python-dev
+	python3-dev
